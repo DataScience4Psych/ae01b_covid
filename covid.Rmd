@@ -10,11 +10,15 @@ output:
 
 ## Introduction
 
-Countries around the world are responding to an outbreak of respiratory illness caused by a novel coronavirus, COVID-19. The outbreak first started in Wuhan, China, but cases have been identified in a growing number of other locations internationally, including the United States. In this report we explore how the trajectory of the cumulative deaths in a number of countries.
+In late 2019, an outbreak of respiratory illness emerged in Wuhan, China, caused by a novel coronavirus. Initially identified as the 2019 Novel Coronavirus (2019-nCoV), it was later officially named Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2). The virus causes Coronavirus Disease 2019 (COVID-19), which led to a global pandemic as cases rapidly spread to countries around the world, including the United States.
 
-The data come from the **coronavirus** package, which pulls data from the Johns Hopkins University Center for Systems Science and Engineering (JHU CCSE) Coronavirus repository. The coronavirus package provides a tidy format dataset of the 2019 Novel Coronavirus COVID-19 (2019-nCoV) epidemic. The package is available on GitHub [here](https://github.com/RamiKrispin/coronavirus) and is updated daily.
+As the outbreak intensified, public health agencies, governments, and research institutions mobilized to track and mitigate the spread of the virus. One of the primary organizations monitoring the pandemic was the Johns Hopkins University Center for Systems Science and Engineering (JHU CCSE), which compiled and disseminated real-time global COVID-19 data. This dataset became a crucial resource for researchers, policymakers, and the public to assess the trajectory of infections and deaths.
 
-For our analysis, in addition to the coronavirus package, we will use the following packages for data wrangling and visualisation.
+The `coronavirus` package was developed to provide a structured and accessible way to work with JHU CCSE’s data. The package compiles global COVID-19 case, death, and recovery counts in a tidy format, making it easier to analyze trends over time. Although JHU stopped updating its dataset in March 2023, it's [GitHub repo](https://github.com/RamiKrispin/coronavirus) preserves daily historical snapshots of the pandemic, allowing us to examine country-level mortality trends up until that point.
+
+In this report, we analyze the trajectory of cumulative deaths from COVID-19 across several countries to better understand how the pandemic evolved over time.
+
+For our analysis, in addition to the `coronavirus` package, we will use the following packages for data wrangling and visualisation.
 
 - **tidyverse** for data wrangling and visualization
 - **lubridate** package for handling dates
